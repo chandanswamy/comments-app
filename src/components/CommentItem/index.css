@@ -1,0 +1,154 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.comment-item {
+  list-style: none;
+  margin-bottom: 16px;
+  margin-top: 4px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.first-letter {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 14px;
+  height: 34px;
+  width: 34px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  margin: 0px;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 600;
+  color: #64748b;
+  padding-top: 6px;
+}
+
+.comment-line {
+  color: #7e858e;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.reactions-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-button {
+  background-color: transparent;
+  border: 0px;
+}
+
+.like-image {
+  width: 18px;
+  height: 18px;
+  margin-right: 14px;
+}
+
+.like {
+  color: #0ea5e9;
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.liked {
+  color: #7e858e;
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: 0px;
+}
+
+.delete-image {
+  height: 18px;
+  width: 18px;
+  margin-right: 14px;
+}

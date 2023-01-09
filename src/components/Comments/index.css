@@ -1,0 +1,186 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.comments-container {
+  width: 90%;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .comments-container {
+    width: 715px;
+  }
+}
+
+.comments-title {
+  font-family: Roboto;
+  font-size: 36px;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .comments-title {
+    font-family: Roboto;
+    font-size: 42px;
+    color: #1e293b;
+  }
+}
+
+.section-one {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .section-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.comments-image {
+  width: 90%;
+  max-width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .comments-image {
+    width: 300px;
+    order: 1;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.comment-heading {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 600;
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .comment-heading {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    color: #475569;
+  }
+}
+
+.input-text {
+  height: 38px;
+  width: 75%;
+  max-width: 300px;
+  color: #64748b;
+  font-size: 14px;
+  border: 1px solid #dee0e3;
+  border-radius: 4px;
+  padding: 12px;
+  font-family: Roboto;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.input-text:focus {
+  font-size: 15px;
+  color: #334155;
+}
+
+.input-textarea {
+  height: 158px;
+  width: 75%;
+  max-width: 300px;
+  color: #64748b;
+  font-size: 14px;
+  border: 1px solid #dee0e3;
+  border-radius: 4px;
+  padding: 12px;
+  font-family: Roboto;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.input-textarea:focus {
+  color: #334155;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-text {
+    width: 85%;
+  }
+  .input-textarea {
+    width: 85%;
+  }
+}
+
+.button {
+  height: 38px;
+  width: 112px;
+  background-color: #0284c7;
+  border: 0px;
+  border-radius: 4px;
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.section-two {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.comments-count {
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #0284c7;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 12px;
+}
+
+.comments {
+  font-family: Roboto;
+  color: #64748b;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.section-three {
+  margin-bottom: 32px;
+}
+
+.comment-items-container {
+  padding: 0px;
+}
+
+.warning {
+  color: Red;
+  display: none;
+  margin: 0px;
+}
+
+.warning-display {
+  display: flex;
+}
