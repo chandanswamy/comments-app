@@ -28,12 +28,22 @@ class Comments extends Component {
   onAddComment = event => {
     event.preventDefault()
 
+    const initialBackgroundColorClassName = `initial-container ${
+      initialContainerBackgroundClassNames[
+        Math.ceil(
+          Math.random() * initialContainerBackgroundClassNames.length - 1,
+        )
+      ]
+    }`
+
     const {name, comment} = this.state
     const newComment = {
       id: uuidv4(),
       name,
       comment,
+      date: new Date(),
       isLiked: false,
+      initialClassName: initialBackgroundColorClassName,
     }
 
     this.setState(prevState => ({
@@ -114,9 +124,6 @@ class Comments extends Component {
                   key={eachComment.id}
                   commentDetails={eachComment}
                   deleteComment={this.deleteComment}
-                  initialContainerBackgroundClassNames={
-                    initialContainerBackgroundClassNames
-                  }
                   toggleIsLiked={this.toggleIsLiked}
                 />
               ))}

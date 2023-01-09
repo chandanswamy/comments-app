@@ -91,6 +91,14 @@
   font-weight: 600;
   color: #64748b;
   padding-top: 6px;
+  margin-right: 32px;
+}
+
+.time {
+  font-family: Roboto;
+  font-size: 12px;
+  padding-top: 6px;
+  color: #94a3b8;
 }
 
 .comment-line {
@@ -116,6 +124,7 @@
 .like-button {
   background-color: transparent;
   border: 0px;
+  cursor: pointer;
 }
 
 .like-image {
@@ -145,6 +154,7 @@
 .delete-button {
   background-color: transparent;
   border: 0px;
+  cursor: pointer;
 }
 
 .delete-image {
